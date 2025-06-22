@@ -4,7 +4,8 @@ document.querySelectorAll('nav ul li a').forEach(link => {
     e.preventDefault();
         
     const href = this.getAttribute('href');
-    
+
+  
     document.querySelector(href).scrollIntoView({
        behavior: 'smooth'
     });
